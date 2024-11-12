@@ -35,7 +35,6 @@ abstract class HashTable {
         return tabela[hash].contains(key); 
     }
 
-    // Retorna o número total de colisões ocorridas
     public int getnumColisao() {
         return numColisao;
     }
